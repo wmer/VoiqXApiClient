@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31903.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiqXApiClient", "VoiqXApiClient\VoiqXApiClient.csproj", "{18BA734D-7D94-4B58-91A9-6FF9AC15B599}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18BA734D-7D94-4B58-91A9-6FF9AC15B599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18BA734D-7D94-4B58-91A9-6FF9AC15B599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18BA734D-7D94-4B58-91A9-6FF9AC15B599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18BA734D-7D94-4B58-91A9-6FF9AC15B599}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C7E3596-B7C3-4886-A0B4-0F3D08EA5610}
+	EndGlobalSection
+EndGlobal
