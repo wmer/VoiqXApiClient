@@ -5,7 +5,11 @@ VisualStudioVersion = 17.1.31903.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoiqXApiClient", "VoiqXApiClient\VoiqXApiClient.csproj", "{18BA734D-7D94-4B58-91A9-6FF9AC15B599}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManyHelpers", "..\ManyHelpers\ManyHelpers\ManyHelpers.csproj", "{F24AD919-CB70-4E77-AF86-5C534C7B1320}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{CB415677-1AD9-4039-84B4-1C16B5336614}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelpersLibs.Web", "..\..\Tools\HelpersLibs\HelpersLibs.Web\HelpersLibs.Web.csproj", "{F807BFC1-2BC6-4669-9952-4468A16B024F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelpersLib.Strings", "..\..\Tools\HelpersLibs\HelpersLib.Strings\HelpersLib.Strings.csproj", "{EF0BB952-6106-4675-B2CA-41E88C83E811}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,13 +21,21 @@ Global
 		{18BA734D-7D94-4B58-91A9-6FF9AC15B599}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18BA734D-7D94-4B58-91A9-6FF9AC15B599}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18BA734D-7D94-4B58-91A9-6FF9AC15B599}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F24AD919-CB70-4E77-AF86-5C534C7B1320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F24AD919-CB70-4E77-AF86-5C534C7B1320}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F24AD919-CB70-4E77-AF86-5C534C7B1320}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F24AD919-CB70-4E77-AF86-5C534C7B1320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F807BFC1-2BC6-4669-9952-4468A16B024F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F807BFC1-2BC6-4669-9952-4468A16B024F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F807BFC1-2BC6-4669-9952-4468A16B024F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F807BFC1-2BC6-4669-9952-4468A16B024F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF0BB952-6106-4675-B2CA-41E88C83E811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF0BB952-6106-4675-B2CA-41E88C83E811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF0BB952-6106-4675-B2CA-41E88C83E811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF0BB952-6106-4675-B2CA-41E88C83E811}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F807BFC1-2BC6-4669-9952-4468A16B024F} = {CB415677-1AD9-4039-84B4-1C16B5336614}
+		{EF0BB952-6106-4675-B2CA-41E88C83E811} = {CB415677-1AD9-4039-84B4-1C16B5336614}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8C7E3596-B7C3-4886-A0B4-0F3D08EA5610}

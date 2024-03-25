@@ -1,5 +1,5 @@
-﻿using ManyHelpers.API;
-using ManyHelpers.API.Events;
+﻿using HelpersLibs.Web;
+using HelpersLibs.Web.Events;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -9,7 +9,7 @@ using VoiqXApiClient.Models;
 
 namespace VoiqXApiClient {
     public class VoiqX {
-        private CosumingHelper _api;
+        private HttpClientHelper _api;
 
         public event RequisitionEventHandler Requisition;
         public event ResponseEventHandler Response;
@@ -18,7 +18,7 @@ namespace VoiqXApiClient {
             if (!baseAdress.EndsWith("/")) {
                 baseAdress = $"{baseAdress}/";
             }
-            _api = new CosumingHelper(baseAdress)
+            _api = new HttpClientHelper(baseAdress)
                                 .AddcontentType()
                                 .AddBearerAuthentication(token);
 
